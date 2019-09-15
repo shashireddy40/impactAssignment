@@ -1,6 +1,12 @@
 impact Assignnment Twitter Analysis
 
 
+Please Note: For Complete Project with all dependencies Download  only impact_final.Zip file and extract
+and follow the below steps
+
+
+
+
 Objective:
 Design and build an application that connects to and ingests data from twitter using any of the publicly available twitter APIs. The application should perform multiple aggregations and transformations on the data set and publish the results to the console and to file.
 
@@ -15,8 +21,7 @@ spark-streaming-twitter-hashtag Calculates popular hashtags (topics) over slidin
 
 Project Structure
 ==================
-
-Streaming
+impact_final.Zip>>extract
 
 >>>>>>  bin------------------- Run ./bin/sbt.sh
 	build.sbt
