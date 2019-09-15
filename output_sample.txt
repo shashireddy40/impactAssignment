@@ -1,0 +1,90 @@
+1) Goto project directory  and run the ./bin/sbt.sh like below 
+
+
+[shashireddy408417@cxln4 streaming]$ ./bin/sbt.sh
+
+
+[info] Set current project to TwitterPopularTags (in build file:/home/shashireddy408417/sparkstream/streaming/)
+
+////////////////  you will be in SBT console run the below commands(clean,package)
+
+> clean
+[success] Total time: 0 s, completed Sep 15, 2019 12:35:39 PM
+
+> package
+[info] Updating {file:/home/shashireddy408417/sparkstream/streaming/}streaming...
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[info] Done updating.
+[info] Compiling 1 Scala source to /home/shashireddy408417/sparkstream/streaming/target/scala-2.10/classes...
+[info] Packaging /home/shashireddy408417/sparkstream/streaming/target/scala-2.10/twitterpopulartags_2.10-0.1.0.jar ...
+[info] Done packaging.
+[success] Total time: 12 s, completed Sep 15, 2019 12:36:04 PM
+
+
+run with arguments 
+
+>run consumerKey consumerSecret accessToken accessTokenSecret [filter1,filter2]
+
+\\\\\\\\\\\sample run command with arguments keys and token are fake here\\\\\\\\\\\\\\\\\\
+
+
+> run file:///home/ssr/Documents/outputfile/for60count O9OCPLFT5IDMqdqKFZKGcYpJn Rvil5TfqAp4ufMVr0vpOkKoLVUxUnJjN1Nsqzilnfe3p3wLgVW 1919544354-J5HXw3P4AGdqQaJit5whdeVd1aZCeCRPwIjuDH8 Y724hhIf0R3dqxuFMYB7gJheGQaX8EVtZQPbQ15no3Z18 T20 Cricket
+
+
+\\\\\\\\\\\\\\\\\output\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 
+
+
+18 cricket T20 indvssa ausvseng
+
+===Direct Stream Print===
+A Khan 🇺🇸🇵🇰@2189
+DESHBHAKT ANTI-CHOWKIDAR  - RIDE ON @2269
+Popular topics in last 10 seconds (0 total):
+Popular topics in last 10 seconds (0 total):
+vinay kalra@26
+Chaudhery Farooq@32
+Popular topics in last 10 seconds (1 total):
+#Dream11 (1 tweets)
+Popular topics in last 10 seconds (1 total):
+#Dream11 (1 tweets)
+Super Star Ane Nenu@212
+vinay kalra@26
+Who Dares Wins@3962
+Dylan 🐍@530
+💘Suresh Raina3💘@1617
+Popular topics in last 10 seconds (2 total):
+#Dream11 (1 tweets)
+#ContestAlert: (1 tweets)
+Popular topics in last 10 seconds (2 total):
+#Dream11 (1 tweets)
+#ContestAlert: (1 tweets)
+Popular topics in last 10 seconds (2 total):
+#Dream11 (1 tweets)
+#ContestAlert: (1 tweets)
+
+===============================================================tweets will save in given directory
+
+
+
+
+|||||||||||||||||||||||||||||2) run with InteliJ Idea.||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+1) open project folder, configure build.sbt if it is changes needed as per versions
+
+2) take time to download 
+
+3) edit configuration (add application)
+
+4) provide argumets like consumerKey consumerSecret accessToken accessTokenSecret [filter1,filter2]
+
+5) run the scala pogramme 
+
+
+
+
+
+
+
+
