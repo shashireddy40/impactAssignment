@@ -48,7 +48,11 @@ How to Run
     > package
     
     > run pathtosave consumerKey consumerSecret accessToken accessTokenSecret [filter1,filter2] 
-		(filters are optional,pathtosave change as per your directory,below are the examples, API Keys should replace with your authorization)
+	
+	
+	(filters are optional,pathtosave change as per your directory,below are the examples, API Keys should replace with your authorization keys)
+	
+	Below are the sample Argument 
 
 run file:///home/ssr/Documents/outputfile/for60count O9OCPLFT5IDMqdqKFZKGcYpJn Rvil5TfqAp4ufMVr0vpOkKoLVUxUnJjN1Nsqzilnfe3p3wLgVW 1919544354-J5HXw3P4AGdqQaJit5whdeVd1aZCeCRPwIjuDH8 Y724hhIf0R3dqxuFMYB7gJheGQaX8EVtZQPbQ15no3Z18 football cricket
 
